@@ -76,15 +76,15 @@ input:focus-within + .MuiTimeClock-root {
 
 /* SVG background in the top left corner */
 /* .background-svg {
-  background-image: url("../public/images/Group6.svg");
-  background-repeat: no-repeat;
-  background-position: center;
-  width: 265px;
-  height: 207px;
-  position: fixed;
-  top: 0;
-  left: 0;
-  z-index: -1; To place it behind other content */
+    background-image: url("../public/images/Group6.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 265px;
+    height: 207px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1; To place it behind other content */
 /* } */
 
 nav {
@@ -248,7 +248,7 @@ th {
 
   /* Responsive Table Styles */
   table {
-    display: block; /* Make the table block for responsive layout */
+    display: flex; /* Make the table block for responsive layout */
     overflow-x: auto; /* Allow horizontal scrolling */
     white-space: nowrap; /* Prevent text wrapping */
     justify-content: center;
